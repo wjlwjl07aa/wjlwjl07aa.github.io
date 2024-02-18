@@ -15,7 +15,7 @@ body {
 
 .header img {
     opacity: 75%;
-    height: 100px;  
+    height: 125px;  
     float: left;
     padding: 3ch;
 }
@@ -25,6 +25,7 @@ main {
     top: 156px; 
     padding: 2ch; 
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5e/Ernani_Costantini_1956_jazz.jpg);
+    opacity: 85%;
 }
 
 
@@ -33,7 +34,7 @@ section {
     background-color: lightcoral;
     border: 1px dotted black;
     margin: 20px 50px;
-    opacity: 85%;
+    opacity: 90%;
     padding: 2ch;
 }
 
