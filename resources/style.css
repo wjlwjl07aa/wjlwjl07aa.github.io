@@ -2,21 +2,57 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
+    background-color: lightcoral;
+}
+
+.header {
+    position: fixed;
+    align-items: center;
+    width: 100%; 
+    z-index: 1;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5e/Ernani_Costantini_1956_jazz.jpg);
+}
+
+.header img {
+    opacity: 75%;
+    height: 100px;  
+    float: left;
+    padding: 3ch;
+}
+
+main {
+    position: relative;
+    top: 156px; 
+    padding: 2ch; 
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5e/Ernani_Costantini_1956_jazz.jpg);
+}
+
+
+section {
+    display: block;
+    background-color: lightcoral;
+    border: 1px dotted black;
+    margin: 20px 50px;
+    opacity: 85%;
+    padding: 2ch;
 }
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20pt;
+    font-size: 40pt;
     font-weight: 700;
     color: white;
     display: inline-block;
 }
 
+
+
 h2 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 14pt;
+    font-weight: bold;
     display: block;
-    color: rgba(236, 236, 62, 0.788);
+    color: yellow;
     text-align: left;
 }
 
@@ -25,28 +61,4 @@ p {
     font-size: 12pt;    
 }
 
-main {
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5e/Ernani_Costantini_1956_jazz.jpg);
-    opacity: 75%;
-    position: relative;
-    top: 155px;
-}
-
-header {
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5e/Ernani_Costantini_1956_jazz.jpg);
-    postiion: fixed;
-    height: 150px;
-}
-
-header img {
-    display: inline-block;
-    opacity: 75%;
-}
-
-section {
-    display: block;
-    background-color: lightcoral;
-    border: 1px dotted black;
-    margin: 1ch auto;
-}
 
